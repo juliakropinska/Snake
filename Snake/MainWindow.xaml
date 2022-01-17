@@ -1,0 +1,18 @@
+﻿<Window x:Class="Snake.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Snake"
+        mc:Ignorable="d"
+        Title="Snake" Height="300" Width="500" FontFamily="Segoe Print">
+    <Grid>
+        <TextBox x:Name="Snake" Height="200" Width="371"/>
+
+        <Label x:Name="lblPoziom" Width="325" Height="9" Content="Poziom"/>
+        <Label x:Name="lblPunkty" Width="325" Height="32" Content="Punkty"/>
+        <Label x:Name="lblWpisPoziom" Width="281" Height="9" />
+        <Label x:Name="lblWpisPunkty" Width="281" Height="32"/>
+        <Label x:Name="lblReszta" />      
+    </Grid>
+</Window>
